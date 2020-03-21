@@ -11,6 +11,15 @@ management:
       enabled: true
 server:
   port: 8080
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      # Eureka server address
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true  
 mongeez:
   location: mongo-changelog/changelog-master.xml
 ---
