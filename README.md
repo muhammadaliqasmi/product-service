@@ -1,3 +1,4 @@
+![Build](https://github.com/muhammadaliqasmi/product-service/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 # Product Service
 
