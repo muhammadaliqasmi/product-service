@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: test
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+server:
+  port: 0
+---
+spring:
+  profiles: test
+  mongodb:
+    embedded:
+      version: 3.4.7
+  data:
+    mongodb:
+      port: 0
+      database: product-service
+  
+

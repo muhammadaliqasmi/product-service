@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: product-service
+  profiles:
+    active: dev
+info:
+  version: ${project.version}
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+server:
+  port: 8080
+mongeez:
+  location: mongo-changelog/changelog-master.xml
+---
+spring:
+  profiles: dev
+  data:
+    mongodb:
+      host: localhost
+      database: product-service
+
+
