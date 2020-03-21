@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "category":"food.fruits",
+            "name":"mango",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        },
+        {
+            "category":"food.vegetables",
+            "name":"carrot",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        },
+        {
+            "category":"food.vegetables",
+            "name":"potato",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        }
+    ]
+}

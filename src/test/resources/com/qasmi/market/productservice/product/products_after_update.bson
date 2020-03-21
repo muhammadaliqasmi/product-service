@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+            "category":"food.fruits",
+            "name":"apple",
+            "description":"This is an apple.",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        },
+        {
+            "category":"food.fruits",
+            "name":"mango",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        },
+        {
+            "category":"food.vegetables",
+            "name":"carrot",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        },
+        {
+            "category":"food.vegetables",
+            "name":"potato",
+            "_class":"com.qasmi.market.productservice.product.Product"
+        }
+    ]
+}
